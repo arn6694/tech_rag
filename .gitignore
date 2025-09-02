@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+shared-env/
+venv/
+env/
+ENV/
+
+# Vector Databases (generated content)
+*/vector_db/
+vector_db/
+chroma_db/
+*.db
+*.sqlite
+
+# Scraped Documentation (generated content)
+*/docs/*.json
+docs/*.json
+
+# PDF/EPUB Books (copyrighted material)
+*.pdf
+*.epub
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.backup
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# API Keys and Secrets
+.env
+*.key
+*.pem
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Keep directory structure but exclude content
+# These directories will be created but remain empty in the repo
+!*/docs/
+!*/pdfs/
+!*/vector_db/
+!docs/
+!pdfs/
+!vector_db/
